@@ -1,0 +1,415 @@
+{
+ "cells": [
+  {
+   "cell_type": "markdown",
+   "id": "d5090f49-2289-4409-b54d-78e8bedca67f",
+   "metadata": {},
+   "source": [
+    "# Variables in Python"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 1,
+   "id": "1704703e-30a8-48ae-ac8d-fb47c803b1c9",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "22\n"
+     ]
+    }
+   ],
+   "source": [
+    "x = 22\n",
+    "\n",
+    "print (x)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 2,
+   "id": "40e28340-b7cf-40af-a3b7-6eeab6ea8ed1",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "int"
+      ]
+     },
+     "execution_count": 2,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "type(x)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 3,
+   "id": "a735e43e-6626-45d8-a955-e9f0999caba3",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Mint Chocolate Chip\n"
+     ]
+    }
+   ],
+   "source": [
+    "y = 'Mint Chocolate Chip'\n",
+    "\n",
+    "print (y)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 4,
+   "id": "142a902f-0d58-428f-b9f2-896995c79700",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "str"
+      ]
+     },
+     "execution_count": 4,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "type (y)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 5,
+   "id": "4ef77698-4970-4437-9abf-2bb6b24fcce2",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Mint Chocolate Chip\n"
+     ]
+    }
+   ],
+   "source": [
+    "y = 'Chocolate'\n",
+    "Y = 'Mint Chocolate Chip'\n",
+    "print (Y)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 15,
+   "id": "71a0b0ff-e955-424f-9ab5-69bc5b1167f8",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Chocolate\n",
+      "Vanilla\n",
+      "Rocky Road\n"
+     ]
+    }
+   ],
+   "source": [
+    "x,y,z = 'Chocolate','Vanilla','Rocky Road'\n",
+    "print(x)\n",
+    "print(y)\n",
+    "print(z)\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 16,
+   "id": "be1780b5-97d1-4519-b2bb-acb9918010d2",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Root Beer Float\n",
+      "Root Beer Float\n",
+      "Root Beer Float\n"
+     ]
+    }
+   ],
+   "source": [
+    "x = y = z ='Root Beer Float'\n",
+    "\n",
+    "print(x)\n",
+    "print(y)\n",
+    "print(z)\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 17,
+   "id": "ca0bb9a0-f568-4c8a-a86a-8f9b2b174f84",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Chocolate\n",
+      "Vanilla\n",
+      "Rocky Road\n"
+     ]
+    }
+   ],
+   "source": [
+    "ice_cream = ['Chocolate','Vanilla','Rocky Road']\n",
+    "\n",
+    "x,y,z = ice_cream\n",
+    "\n",
+    "print(x)\n",
+    "print(y)\n",
+    "print(z)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "df4c55b9-50b9-4c35-9685-b31c6f4e4df4",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "28803775-c03a-45ea-97ee-f0432135e5ba",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "# Camel Case\n",
+    "\n",
+    "# Test Variable Case\n",
+    "\n",
+    "testVariableCase = 'Vanilla Swirl'"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "42912673-3a3c-44fd-ae47-c49f07b25f57",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "# Pascal Case\n",
+    "\n",
+    "# Test Variable Case\n",
+    "\n",
+    "testVariableCase = 'Vanilla Swirl'"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "f12f7247-da9f-4fa7-a4d7-ba609f9e81d8",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "# Snake Case\n",
+    "\n",
+    "# Test Variable Case\n",
+    "\n",
+    "test_variable_case = 'Vanilla Swirl'"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 18,
+   "id": "e997def4-f4e0-489c-a707-61d63dfa4801",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "testvar = 'Vanilla Swirl'\n",
+    "test_var = 'Vanilla Swirl'\n",
+    "_test_var = 'Vanilla Swirl'\n",
+    "testVar = 'Vanilla Swirl'\n",
+    "TestVar = 'Vanilla Swirl'\n",
+    "testVar2 = 'Vanilla Swirl'"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "35992463-5d15-4421-ac9d-a00e6eaaa16a",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 19,
+   "id": "349c7af5-dd09-4e09-967b-74ebb0c0fcc7",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Ice Cream is my Favorite.\n"
+     ]
+    }
+   ],
+   "source": [
+    "x = 'Ice Cream is my Favorite' + '.'\n",
+    "\n",
+    "print (x)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 20,
+   "id": "bd0979dc-3f5c-4ef7-9f85-8b4de30ecb6e",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "5\n"
+     ]
+    }
+   ],
+   "source": [
+    "y = 3 + 2\n",
+    "\n",
+    "print (y)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "c97cb564-618e-43e5-9e76-cd1d20535a5d",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 29,
+   "id": "f962d30c-ec41-44bc-ae45-341e698b0c3a",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Ice Cream is my Favorite.\n"
+     ]
+    }
+   ],
+   "source": [
+    "x ='Ice Cream'\n",
+    "y = ' is'\n",
+    "z = ' my Favorite.'\n",
+    "print (x + y + z)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 30,
+   "id": "4a045c0a-60c7-4526-b50f-70a0da4a3a3b",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "6\n"
+     ]
+    }
+   ],
+   "source": [
+    "x = 1\n",
+    "y = 2\n",
+    "z = 3\n",
+    "print (x + y + z)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "748ca0fa-de2c-4e30-b083-5ffc40787f28",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 32,
+   "id": "ec5dc373-ae98-4f8b-8b5c-233cedf26d34",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Ice Cream 2\n"
+     ]
+    }
+   ],
+   "source": [
+    "x = 'Ice Cream'\n",
+    "y = 2\n",
+    "print (x,y)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "fe52757f-73cd-445d-afe5-56f5ff0ce1e3",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "3d890f6f-490a-4774-8099-38b5f92ea93a",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 3 (ipykernel)",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.13.5"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}
